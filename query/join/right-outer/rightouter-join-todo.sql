@@ -1,5 +1,6 @@
 --task: join employee table and department table, such that nonmatching records from department table (right table) are returned
--- schema sql:
+
+-- scenario sql
 /*
 create table Employee(EmpID int, EmpName varchar(100), DeptID int)
 insert into Employee (EmpID, EmpName, DeptID)

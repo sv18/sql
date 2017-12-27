@@ -1,5 +1,6 @@
 --task: list the employee names and their department name.
--- schema sql:
+
+-- scenario sql
 /*
 create table Employee(EmpID int, EmpName varchar(100), DeptID int)
 insert into Employee (EmpID, EmpName, DeptID)
