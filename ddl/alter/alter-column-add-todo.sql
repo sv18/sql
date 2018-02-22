@@ -7,6 +7,8 @@ create table student (id int, name varchar(100))
 
 -- output: 
 /*
+-- below query should run without any schema errors
+select marks from student
 */
 
 -- query
