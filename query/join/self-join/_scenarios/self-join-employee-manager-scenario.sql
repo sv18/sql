@@ -18,6 +18,10 @@ values
 */
 
 -- Query:
+select e.empname as empname,m.empname as managername 
+from Employee e
+left outer join employee m
+on e.managerid=m.empid
 
 
 
